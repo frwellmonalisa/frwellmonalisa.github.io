@@ -1,0 +1,22 @@
+{
+  "files": {
+    "main.js": "/alexandra/static/js/main.a0027956.chunk.js",
+    "main.js.map": "/alexandra/static/js/main.a0027956.chunk.js.map",
+    "runtime-main.js": "/alexandra/static/js/runtime-main.0e4878ee.js",
+    "runtime-main.js.map": "/alexandra/static/js/runtime-main.0e4878ee.js.map",
+    "static/css/2.9f4ea2fb.chunk.css": "/alexandra/static/css/2.9f4ea2fb.chunk.css",
+    "static/js/2.c43ac4a7.chunk.js": "/alexandra/static/js/2.c43ac4a7.chunk.js",
+    "static/js/2.c43ac4a7.chunk.js.map": "/alexandra/static/js/2.c43ac4a7.chunk.js.map",
+    "index.html": "/alexandra/index.html",
+    "precache-manifest.1b232c29c5098fc66d48c278bb0412b5.js": "/alexandra/precache-manifest.1b232c29c5098fc66d48c278bb0412b5.js",
+    "service-worker.js": "/alexandra/service-worker.js",
+    "static/css/2.9f4ea2fb.chunk.css.map": "/alexandra/static/css/2.9f4ea2fb.chunk.css.map",
+    "static/js/2.c43ac4a7.chunk.js.LICENSE.txt": "/alexandra/static/js/2.c43ac4a7.chunk.js.LICENSE.txt"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.0e4878ee.js",
+    "static/css/2.9f4ea2fb.chunk.css",
+    "static/js/2.c43ac4a7.chunk.js",
+    "static/js/main.a0027956.chunk.js"
+  ]
+}
