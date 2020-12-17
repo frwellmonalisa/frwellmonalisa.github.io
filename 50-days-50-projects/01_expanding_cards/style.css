@@ -63,7 +63,7 @@ body {
 @media (max-width: 768px) {
   .container {
     width: 100vw;
-    min-height: 100vh;
+    height: calc(20vh * 4 + 40vh);
     flex-direction: column;
   }
 }
