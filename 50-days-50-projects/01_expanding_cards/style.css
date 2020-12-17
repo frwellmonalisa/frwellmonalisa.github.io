@@ -60,6 +60,7 @@ body {
   opacity: 1;
 }
 
+/* TODO Разобраться, почему на мобиле на плавно открывается карточка */
 @media (max-width: 768px) {
   .container {
     width: 100vw;
