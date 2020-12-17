@@ -22,7 +22,7 @@ body {
 
 .panel {
   position: relative;
-  height: 90vh;
+  height: 20vh;
   margin: 10px;
   flex: 0.5;
 
@@ -35,6 +35,12 @@ body {
   color: white;
   cursor: pointer;
   transition: flex 0.7s ease-in;
+}
+
+@media (min-width: 768px) {
+  .panel {
+    height: 90vh;
+  }
 }
 
 .panel h3 {
