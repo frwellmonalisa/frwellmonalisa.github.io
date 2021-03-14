@@ -1,0 +1,107 @@
+@font-face {
+  font-family: "Gadugi";
+  src: url("../fonts/Gadugi.woff2") format("woff2"),
+    url("../fonts/Gadugi.woff") format("woff");
+  font-weight: normal;
+  font-style: normal;
+  font-display: swap;
+}
+
+body {
+  margin: 0;
+  padding: 0;
+  font-family: "Gadugi", sans-serif;
+  font-weight: 700;
+  background: black;
+}
+
+a {
+  text-decoration: none;
+  color: inherit;
+}
+
+a:hover {
+  opacity: 0.8;
+}
+
+img {
+  max-width: 100%;
+  height: auto;
+}
+
+.numbers-container:first-of-type {
+  background: linear-gradient(180deg, #000000 0%, #ffffff 100%);
+}
+
+.numbers-container:last-of-type {
+  background: linear-gradient(360deg, #000000 0%, #ffffff 100%);
+}
+
+.numbers-row {
+  height: 15px;
+  width: 100%;
+  background-image: url(../images/2347.svg);
+  background-repeat: repeat-x;
+  margin: 10px 0;
+  background-size: contain;
+}
+
+.numbers-row:first-of-type {
+  margin: 0 0 10px;
+}
+
+.numbers-row:last-of-type {
+  margin: 10px 0 0;
+}
+
+.numbers-row:nth-child(2n) {
+  animation: move 200s linear infinite;
+}
+
+.numbers-row:nth-child(2n + 1) {
+  animation: move 100s linear infinite;
+}
+
+.numbers-row:nth-child(3n + 1) {
+  animation: move 170s linear infinite reverse;
+}
+
+@keyframes move {
+  from {
+    background-position: 0 0;
+  }
+  /*use negative width if you want it to flow right to left else and positive for left to right*/
+  to {
+    background-position: 5000px 0;
+  }
+}
+
+main {
+  background: white;
+}
+
+.container {
+  background: white;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+
+  max-width: 600px;
+  margin: 0 auto;
+  padding-left: 15px;
+  padding-right: 15px;
+  padding-bottom: 50px;
+}
+
+.links-list {
+  margin: 0;
+  margin-top: 50px;
+  padding: 0;
+  list-style: none;
+}
+
+.links-list a {
+  font-size: 19px;
+  line-height: 25px;
+}
